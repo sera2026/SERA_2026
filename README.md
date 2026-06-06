@@ -1,8 +1,8 @@
-# SERA: Structured Evaluation and Reinforcement Alignment for LLMs in Microservice Mitigation (Submitted to ICSME 2026)
+# SERA: Structured Evaluation and Reinforcement Alignment for LLMs in Microservice Mitigation
 
 forked from https://github.com/phamquiluan/RCAEval
 
-SERA integrates **multi-agent majority voting** with **reinforcement learning from human feedback (RLHF)**. Multiple LLMs act as evaluators to identify the most reliable mitigation generator, while iterative reinforcement alignment refines the generator under controlled training conditions.  
+SERA integrates **multi-agent majority voting** with **reinforcement learning using GRPO**. Multiple LLMs act as evaluators to identify the most reliable mitigation generator, while iterative reinforcement alignment refines the generator under controlled training conditions.  
 
 The framework systematically explores key training parameters, including:
 
@@ -37,7 +37,6 @@ This flexibility makes SERA suitable for broader research on **LLM evaluation, a
 SERA demonstrates that **structured multi-agent evaluation combined with reinforcement alignment** provides a practical paradigm for refining LLMs in complex operational environments. By enabling systematic experimentation and scalable evaluation, the framework supports the development of **high-quality, actionable mitigation strategies** for microservice systems.
 
 The framework is **open sourced** to facilitate further research on reliable LLM evaluation and alignment.
-*Submitted to ICSME 2026.*
 
 <p align="center">
 <img width=1000 src= "./docs/SERA.jpg"/>
