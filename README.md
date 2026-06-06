@@ -38,10 +38,6 @@ SERA demonstrates that **structured multi-agent evaluation combined with reinfor
 
 The framework is **open sourced** to facilitate further research on reliable LLM evaluation and alignment.
 
-<p align="center">
-<img width=1000 src= "./docs/SERA.jpg"/>
-</p>
-
 ## Prerequisites
 
 Experiments are run on a Linux workstation with an Intel i9-10900K CPU (20 cores, 3.70GHz), 32 GB RAM,
